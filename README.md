@@ -8,7 +8,7 @@ Project Organization
 
     ├── LICENSE
     │
-    ├── README.md          <- The top-level README for developers using this project.    │
+    ├── README.md          <- The top-level README for developers using this project.
     │   
     ├── examples           <- Examples using neural netowork models
     │ 
@@ -16,9 +16,9 @@ Project Organization
     │    
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment
     │                         
-    │
     └── tfneural           <- Source code
-        ├── __init__.py    <- Makes src a Python module
+        │
+        ├── __init__.py    <- Makes src a Python module
         │
         └── models.py      <- classes of the models
 
