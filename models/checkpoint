@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/cristiano/Documents/DataScience/TensorFlow/projects/tf-neural-networks/models/dnn_mnist.ckpt"
+all_model_checkpoint_paths: "/Users/cristiano/Documents/DataScience/TensorFlow/projects/tf-neural-networks/models/dnn_mnist.ckpt"

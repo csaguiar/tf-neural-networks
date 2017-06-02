@@ -12,7 +12,7 @@ if __name__ == '__main__':
     print(data_path)
     mnist = input_data.read_data_sets(data_path, one_hot=True)
     dnn = DeepNeuralNet(n_classes=10, n_inputs=784, hidden_layers=[500, 500, 500])
-    sess = dnn.train(mnist.train.images, mnist.train.labels, 10, 100)
+    sess = dnn.train(mnist.train.images, mnist.train.labels, 10, 100, save_to=os.path.join(root_path, 'models/dnn_mnist.ckpt'))
     acc = dnn.test(sess, mnist.test.images, mnist.test.labels)
     print('Accuracy', acc)
     sess.close()
